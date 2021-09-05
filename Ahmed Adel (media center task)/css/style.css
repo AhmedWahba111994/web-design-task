@@ -1,0 +1,458 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+main{
+    width: 100%;
+    height: 500px;
+    background: url(../image/slider.jpg)no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: rgb(88, 79, 73);
+    overflow: hidden;
+    position: fixed;
+    box-sizing: border-box;
+
+    
+}
+.head {
+    width: 100%;
+    height:50px;
+    /* margin: 15px; */
+    float: right;
+    overflow: hidden;
+}
+/* header{
+    height: ;
+} */
+ul{
+    /* height: 100%; */
+background-color: transparent;  
+    list-style: none;
+}
+ul #b1 , ul #b2 , ul #b3 , ul #b4{
+    width: 100%;
+    height: 50px;
+    Display:inline-block;
+    background-color:transparent;  
+    text-align: center;
+    border-right: none;
+    font-size: 28px;
+    font-weight: bolder;
+    text-decoration: none;
+overflow: hidden;
+float: right;
+
+}
+#b1{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100%;
+    background-size: cover;
+    display: inline-block;
+}
+hr{
+    height: 55px;
+    padding: 1px;
+    background: orange;
+      border: .25px solid orange;
+      overflow: hidden;
+
+    }
+    /* fixed icons */
+.icons{
+    width: 300px;
+    height: 500px;
+    list-style: none;
+    font-size: 22px;
+    text-align: left;
+    font-weight: bolder; 
+    position: fixed;
+
+}
+ul #icon1 , ul #icon2, ul #icon3 , ul #icon4{
+    width: 200px;
+    height: 80px;
+    text-align: left;
+    border: 1px solid black;
+    /* background: brown; */
+    clip-path: circle(50% at 0 49%);
+    transition: all 1s;
+
+
+}
+#icon1 {
+    padding-top: 7px;
+    padding-left: 70px;
+    background: green;
+}
+#icon2{
+    padding-top: 7px;
+    padding-left: 70px;  
+      background: blue;
+}
+
+#icon3{
+    padding-top: 7px;
+    padding-left: 70px; 
+       background: red;
+}
+#icon4{
+    padding-top: 7px;
+    padding-left: 70px;  
+      background: cyan;
+}
+#icon1:hover , #icon2:hover, #icon3:hover , #icon4:hover{
+    width: 150px;
+clip-path: circle(76.7% at 94% 50%);
+
+
+}
+
+
+/*- middle section-*/
+.middle {
+    width: 100%;
+    min-height: 400px;
+    margin: auto;
+    background: rgb(209, 212, 212);
+    display:flex ;
+    justify-content: space-around; /*flex-start - flex-end - center - space-around - space-between - space-evenly*/
+    align-items: center;/*flex-start - flex-end - center*/
+    text-align: left;
+}
+
+.h1{
+    height: 50px;
+    background: red;
+    color:white;
+    text-align: center;
+}
+.h2{
+    height: 50px;
+    background:rgb(58, 82, 4);
+    color:white;
+    text-align: center;
+}
+
+.h3{
+        height: 50px;
+        background: blue;
+        color:white;
+        text-align: center;
+    }
+.c1{
+    width: 500px;
+    height: 300px;
+    background: rgb(255, 239, 175);
+    border: 2px solid black;
+    text-align: center;
+
+}
+.c2{
+    width: 500px;
+    height: 300px;
+    background: rgb(255, 239, 175);
+    border: 2px solid black;
+
+}
+.c3{
+    width: 500px;
+    height: 300px;
+    background: rgb(255, 239, 175);
+    border: 2px solid black;
+
+}
+
+
+
+
+
+
+/* -lower section - */
+.upper{
+    width: 100%;
+    height: 450px;
+    background: grey;
+    overflow: hidden;
+
+}
+
+.left{
+    float: left;
+    overflow: hidden;
+
+}
+
+
+.right{
+    width: 800px;
+    height: 400px;
+    color: white;
+    padding: 60px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin:auto;
+    float: right;
+    text-align: left;
+    font-style: none;
+    overflow: hidden;
+
+}
+/* contacts section */
+#contacts{
+    width: 100%;
+    height: 300px;
+    background: rgb(65, 65, 62);
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: left;
+    word-spacing: 5px;
+    display: inline-block;
+    overflow: hidden;
+}
+h1{
+    color: black;
+}
+h3{color: coral;}
+
+.copywrite{
+    width: 100%;
+    height: 40px;
+    color: honeydew;
+    text-align: center;
+    background: rgb(66, 63, 63);
+    overflow: hidden;
+
+}
+@media screen and (min-width:320px) and (max-width:360px){
+    main{
+        width: 300px;
+        height: 500px;
+        background: url(../image/slider.jpg)no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+    header{
+        width: 300px;
+        height: 50px;
+        background: rgb(88, 79, 73);
+        overflow: hidden;
+        position: fixed;
+    
+        
+    }
+    .head {
+        width: 300px;
+        height:100px;
+        margin: 15px;
+        float: right;
+        overflow: hidden;
+    }
+    ul{
+        width: 300px;
+        height: 100px;
+    background-color: transparent;  
+        list-style: none;
+    }
+    ul #b1 , ul #b2 , ul #b3 , ul #b4{
+        width: 300px;
+        height: 50px;
+        background-color:transparent;  
+        text-align: center;
+        border-right: none;
+        font-size: 28px;
+        font-weight: bolder;
+        text-decoration: none;
+         overflow: hidden;
+        float: right;
+    
+    }
+    #b1{
+        background-color: black;
+        color: white;
+    }
+    img{
+        display: inline-block;
+    }
+    hr{
+        height: 55px;
+        padding: 1px;
+        background: orange;
+          border: .25px solid orange;
+          overflow: hidden;
+    
+          /* fixed icons */
+    }
+    .icons{
+        width: 100%;
+        height: 500px;
+        list-style: none;
+        font-size: 22px;
+        text-align: left;
+        font-weight: bolder; 
+        position: fixed;
+    
+    }
+    ul #icon1 , ul #icon2, ul #icon3 , ul #icon4{
+        width: 100px;
+        height: 80px;
+        text-align: left;
+        border: 1px solid black;
+        /* background: brown; */
+        clip-path: circle(50% at 0 49%);
+        transition: all 1s;
+    
+    
+    }
+    #icon1 {
+        padding-top: 7px;
+        padding-left: 70px;
+        background: green;
+    }
+    #icon2{
+        padding-top: 7px;
+        padding-left: 70px;  
+          background: blue;
+    }
+    
+    #icon3{
+        padding-top: 7px;
+        padding-left: 70px; 
+           background: red;
+    }
+    #icon4{
+        padding-top: 7px;
+        padding-left: 70px;  
+          background: cyan;
+    }
+    #icon1:hover , #icon2:hover, #icon3:hover , #icon4:hover{
+        width: 150px;
+    clip-path: circle(76.7% at 94% 50%);
+    
+    
+    }
+    
+    
+    /*- middle section-*/
+    .middle {
+        width: 100%;
+        min-height: 400px;
+        margin: auto;
+        background: rgb(209, 212, 212);
+        display:flex ;
+        justify-content: space-around; /*flex-start - flex-end - center - space-around - space-between - space-evenly*/
+        align-items: center;/*flex-start - flex-end - center*/
+        text-align: left;
+    }
+    
+    .h1{
+        padding: 10px;
+        height: 50px;
+        color: #fff;
+        background-color: rgb(255, 36, 36);
+        text-align: center;
+    }
+    .h2{
+        height: 50px;
+        background:rgb(58, 82, 4);
+        color:white;
+        text-align: center;
+    }
+    
+    .h3{
+            height: 50px;
+            background: blue;
+            color:white;
+            text-align: center;
+        }
+    .c1{
+        width: 500px;
+        height: 300px;
+        background: rgb(255, 239, 175);
+        border: 2px solid black;
+        text-align: center;
+    
+    }
+    .c2{
+        width: 500px;
+        height: 300px;
+        background: rgb(255, 239, 175);
+        border: 2px solid black;
+    
+    }
+    .c3{
+        width: 500px;
+        height: 300px;
+        background: rgb(255, 239, 175);
+        border: 2px solid black;
+    
+    }
+    
+    
+    
+    
+    
+    
+    /* -lower section - */
+    .upper{
+        width: 100%;
+        height: 450px;
+        background: grey;
+        overflow: hidden;
+    
+    }
+    
+    .left{
+        float: left;
+        overflow: hidden;
+    
+    }
+    
+    
+    .right{
+        width: 800px;
+        height: 400px;
+        color: white;
+        padding: 60px;
+        font-size: 24px;
+        font-weight: bolder;
+        margin:auto;
+        float: right;
+        text-align: left;
+        font-style: none;
+        overflow: hidden;
+    
+    }
+    /* contacts section */
+    #contacts{
+        width: 100%;
+        height: 300px;
+        background: rgb(65, 65, 62);
+        color: white;
+        font-size: 24px;
+        font-weight: bolder;
+        text-align: left;
+        word-spacing: 5px;
+        display: inline-block;
+        overflow: hidden;
+    }
+    h1{
+        color: black;
+    }
+    h3{color: coral;}
+    
+    .copywrite{
+        background-color: #555555;
+        height: 200px;
+        width: 100%;
+        padding: 80px 5px;
+    
+    }
+
+}
+
